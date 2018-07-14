@@ -1,0 +1,32 @@
+.root{
+    -fx-background-image: url(background.jpg);
+    -fx-background-size: cover;
+}
+.button{
+    -fx-background-color: rgba(0,0,0,0.4);
+    -fx-text-fill: white;
+    -fx-border-size: 1px;
+    -fx-border-color: black;
+}
+.button:hover{
+   -fx-background-color: rgba(0,0,0,0.7);
+   -fx-cursor: pointer;
+}
+#X{
+  -fx-text-fill: white;
+  -fx-font-size: 30px;
+  -fx-background-color: red !important;
+  -fx-font-weight: bold;
+  
+}
+#O{
+   -fx-text-fill: white;
+  -fx-background-color: blue; 
+  -fx-font-weight: bold;
+  -fx-font-size: 30px;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
